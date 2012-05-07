@@ -1,4 +1,5 @@
 #include "cmd_line.h"
+#include <iostream>
 
 namespace po = boost::program_options;
 CmdLine:: CmdLine(int argc,char**argv) : should_exit_(false) {
